@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 // Load data
 $content = require_once 'data/content.php';
@@ -40,28 +40,7 @@ $content = require_once 'data/content.php';
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-=======
-<?php
-// Load data
-$content = require_once 'data/content.php';
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $content['metadata']['title']; ?></title>
-    <meta name="description" content="<?php echo $content['metadata']['description']; ?>">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
-</head>
-<body>
+
 
     <?php include 'includes/header.php'; ?>
 
@@ -82,4 +61,3 @@ $content = require_once 'data/content.php';
     <script src="assets/js/main.js"></script>
 </body>
 </html>
->>>>>>> 98d844731f4e260e9f62e1ab8938447f10eb4c16
