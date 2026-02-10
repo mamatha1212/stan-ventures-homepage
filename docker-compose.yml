@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: '3.8'
 
 services:
@@ -8,3 +9,15 @@ services:
     volumes:
       - ./:/var/www/html
     restart: always
+=======
+version: '3.8'
+
+services:
+  web:
+    image: php:8.0-apache
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www/html
+    restart: always
+>>>>>>> 98d844731f4e260e9f62e1ab8938447f10eb4c16
