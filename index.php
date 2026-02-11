@@ -40,24 +40,3 @@ $content = require_once 'data/content.php';
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-
-
-    <?php include 'includes/header.php'; ?>
-
-    <main>
-        <?php include 'components/section-hero.php'; ?>
-        
-        <?php include 'components/section-services.php'; ?>
-        <?php include 'components/section-stats-reviews.php'; ?>
-        <?php include 'components/section-proven-results.php'; ?>
-        <?php include 'components/section-process.php'; ?>
-        
-
-        <?php include 'components/section-comparison.php'; ?>
-    </main>
-
-    <?php include 'includes/footer.php'; ?>
-
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
