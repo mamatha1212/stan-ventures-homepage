@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< 
 # Stan Ventures Homepage – Technical Assessment
 
 ## 📌 Project Overview
@@ -66,4 +66,4 @@ The goal of this assessment is to demonstrate:
 index.php
 README.md
 
->>>>>>> 98d844731f4e260e9f62e1ab8938447f10eb4c16
+>>>>>>> 
